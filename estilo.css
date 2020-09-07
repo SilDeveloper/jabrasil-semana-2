@@ -1,0 +1,150 @@
+html, body
+{
+  margin: 0;
+  text-align: center;
+  color: black;
+}
+
+header
+{
+  background-color:black;
+  color: white;
+  height: 60px;
+  width: 100%;
+  position: fixed;
+  z-index: 10; /* Sobrepõe  */
+}
+
+#menu
+{
+    float: right;
+    margin-right: 5%;
+    list-style: none;
+    top: 0px;
+    margin-top: 0px;
+}
+
+li
+{
+  float: left;
+  padding: 20px 10px 20px 10px;
+  border: 1px;
+}
+
+li:hover /* Quando passar o mouse  */
+{
+    background-color: #35605A;
+}
+
+#imagem_fundo
+{
+  background: url("fundo.jpg");
+  height: 100%;
+  text-align: center;
+  background-size: cover; /* para de duplicar a img de fundo */
+}
+
+#titulo
+{
+    color: white;
+    padding-top: 20%;
+    font-size: 70px;
+    font-style: oblique;
+    line-height: 0.6;
+}
+
+#subtitulo
+{
+    color: white;
+    padding-left: 20%;
+    padding-right: 20%;
+    border-top: 3px solid white;
+    text-shadow: 1px 1px  black;
+    font-style: oblique;
+    
+}
+
+#acao 
+{
+    color: #210124;
+    border: 1px white solid;
+    padding: 10px 20px 10px 20px;
+    background-color: #35605A;
+}
+
+.icone
+{
+    width: 51px; <!-- Tamanho da imagem --!>
+}
+
+section
+{
+    padding: 20px;
+    float: left;
+    background-color:#B287A3;
+    color: white;
+}
+
+.destaque
+{
+    /* Projeto */
+    background-color:#252627;
+    color: white;
+}
+
+.imgexplo
+{
+    width: 90%;
+    padding: 0 2%;
+    padding-left: 17%;
+    text-align: center; 
+    height: 30%;
+
+}
+
+.sobre
+{
+    background-color:#B287A3;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    text-shadow: 1px 1px;
+    font-style: oblique;
+}
+
+.coluna
+{
+    float: left;
+    padding: 0 5%;
+    position: relative;
+    width: 40%;
+}
+
+.dois
+{
+    /* width: 29%; */
+    padding: 0 2%;
+    text-align: center; 
+    
+}
+
+.centralizado
+{
+    text-align: center;
+}
+
+footer
+{
+    background-color:#252627;
+    float: left;
+    width: 100%;
+    height: 30%;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-style: oblique;
+    text-shadow: 1px 1px;F6D0B1
+    
+}
+
+/* #252627 preto
+#B287A3 sobre
+#7E4E60 destaque */
